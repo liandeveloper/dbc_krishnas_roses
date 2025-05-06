@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna´s Roses | Tienda</title>
+    <link rel="shortcut icon" href="../assets/img/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/img/bootstrap_icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/store.css">
+</head>
+<body>
+
+    <main>
+        <!-- Menu -->
+        <button class="btn-menu" onclick="toggleNav()">
+            <i class="bi bi-list"></i>
+        </button>
+        <!-- Navbar Vertical -->
+        <aside class="nav-ver" id="navMenu">
+            <div class="nav-ver-logo"></div>
+            <ul class="nav-ver-links">
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="store.html">Tienda</a></li>
+                <li><a href="https://liandeveloper.github.io/dbc_krishnas_roses/">Contacto</a></li>
+            </ul>
+            <ul class="nav-ver-social">
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a href=""><i class="bi bi-pinterest"></i></a></li>
+                <li><a href=""><i class="bi bi-telegram"></i></a></li>
+                <li><a href=""><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+        </aside>
+
+        <section class="products">
+            <!-- Tarjeta de Producto -->
+            <div class="product" id="0001">
+                <div class="product-img"></div>
+                <div class="product-info">
+                    <p class="product-description">Vestido Rojo, nudo delantero</p>
+                    <div class="product-info-details">
+                        <p class="product-color">Color: Rojo</p>
+                        <p class="product-size">Tamaño: Pequeño</p>
+                    </div>
+                    <div class="product-info-price">$16</div>
+                </div>
+                <button class="product-pay" onclick="redirectToWhatsApp(this)">Comprar</button>
+            </div>
+            <!-- Tarjeta de Producto -->
+            <div class="product" id="0005">
+                <div class="product-img"></div>
+                <div class="product-info">
+                    <p class="product-description">Vestido de manga Murcielago</p>
+                    <div class="product-info-details">
+                        <p class="product-color">Color: Azul</p>
+                        <p class="product-size">Tamaño: Mediano</p>
+                    </div>
+                    <div class="product-info-price">$10</div>
+                </div>
+                <button class="product-pay" onclick="redirectToWhatsApp(this)">Comprar</button>
+            </div>
+            <!-- Tarjeta de Producto -->
+            <div class="product" id="0006">
+                <div class="product-img"></div>
+                <div class="product-info">
+                    <p class="product-description">Pulover NFL</p>
+                    <div class="product-info-details">
+                        <p class="product-color">Color: Rojo</p>
+                        <p class="product-size">Tamaño: Grande</p>
+                    </div>
+                    <div class="product-info-price">$20</div>
+                </div>
+                <button class="product-pay" onclick="redirectToWhatsApp(this)">Comprar</button>
+            </div>
+            <div class="product" id="0007">
+                <div class="product-img"></div>
+                <div class="product-info">
+                    <p class="product-description">Falda estampada </p>
+                    <div class="product-info-details">
+                        <p class="product-color">Color: Blanco/Negro</p>
+                        <p class="product-size">Tamaño: Mediano</p>
+                    </div>
+                    <div class="product-info-price">$7</div>
+                </div>
+                <button class="product-pay" onclick="redirectToWhatsApp(this)">Comprar</button>
+            </div>
+            <div class="product" id="0011">
+                <div class="product-img"></div>
+                <div class="product-info">
+                    <p class="product-description">Conjunto de 2 piezas chaqueta con botones y vestido ajustado</p>
+                    <div class="product-info-details">
+                        <p class="product-color">Color: Salmón</p>
+                        <p class="product-size">Tamaño: Mediano</p>
+                    </div>
+                    <div class="product-info-price">$13</div>
+                </div>
+                <button class="product-pay" onclick="redirectToWhatsApp(this)">Comprar</button>
+            </div>
+            <div class="product" id="0012">
+                <div class="product-img"></div>
+                <div class="product-info">
+                    <p class="product-description">Pulover de mangas cortas con estampado de panel de instrumento</p>
+                    <div class="product-info-details">
+                        <p class="product-color">Color: Gris</p>
+                        <p class="product-size">Tamaño: Mediano</p>
+                    </div>
+                    <div class="product-info-price">$10</div>
+                </div>
+                <button class="product-pay" onclick="redirectToWhatsApp(this)">Comprar</button>
+            </div>
+            <div class="product" id="0014">
+                <div class="product-img"></div>
+                <div class="product-info">
+                    <p class="product-description">Vestido elegante ajustado y cortode cuello y mangas acampanada</p>
+                    <div class="product-info-details">
+                        <p class="product-color">Color: Rojo</p>
+                        <p class="product-size">Tamaño: Mediano</p>
+                    </div>
+                    <div class="product-info-price">$15</div>
+                </div>
+                <button class="product-pay" onclick="redirectToWhatsApp(this)">Comprar</button>
+            </div>
+            <div class="product" id="0016">
+                <div class="product-img"></div>
+                <div class="product-info">
+                    <p class="product-description">Vestido con estampado floral, empalme y tirantes </p>
+                    <div class="product-info-details">
+                        <p class="product-color">Color: Multicolor</p>
+                        <p class="product-size">Tamaño: Pequeño</p>
+                    </div>
+                    <div class="product-info-price">$8</div>
+                </div>
+                <button class="product-pay" onclick="redirectToWhatsApp(this)">Comprar</button>
+            </div>
+            <div class="product" id="0017">
+                <div class="product-img"></div>
+                <div class="product-info">
+                    <p class="product-description">Vestido corto sencillo sin manga y con calado </p>
+                    <div class="product-info-details">
+                        <p class="product-color">Color: Caqui</p>
+                        <p class="product-size">Tamaño: Pequeño</p>
+                    </div>
+                    <div class="product-info-price">$17</div>
+                </div>
+                <button class="product-pay" onclick="redirectToWhatsApp(this)">Comprar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <ul class="footer-social">
+            <li><a href="https://www.instagram.com/krishna.roses/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="https://es.pinterest.com/krishnasroses/" target="_blank"><i class="bi bi-pinterest"></i></a></li>
+            <li><a href="https://t.me/krishnas_roses" target="_blank"><i class="bi bi-telegram"></i></a></li>
+            <li><a href="https://whatsapp.com/channel/0029Vb5YjCs545uryfIikL0r" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+    </footer>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
